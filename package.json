@@ -1,5 +1,5 @@
 {
-  "name": "knull-app",
+  "name": "@nishat-bcg/knull-app",
   "version": "1.0.0",
   "description": "this is the knull app",
   "main": "./lib/cjs/index.js",
@@ -17,6 +17,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nishat-bcg/knull-app.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/@nishat-bcg"
   },
   "author": "nishat-roy",
   "license": "MIT",
